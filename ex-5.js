@@ -1,5 +1,9 @@
-function sum() {
-  // Start coding here !
+function sum(...input) {
+  let result = 0
+  for (let i = 0 ; i<input.length ; i++){
+    result += input[i]
+  }
+  return result
 }
 
 let result1 = sum(1, 2, 3, 4, 5, 6, 7, 8);
